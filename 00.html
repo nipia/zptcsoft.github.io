@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+    a{
+     font-size:2em;
+    }
+    a:link{
+      color:red;
+      background:blue;
+      text-decoration:none;
+    }
+     img{
+    opacity:0;
+    position:absolute;
+    left:20%;
+  }
+
+   a:hover{
+    color:green;
+  }
+  a:active{
+    color:yellow;
+  }
+  a:hover img{
+    opacity:1;
+  }
+
+    .c .phone{
+    position: absolute;
+      left:120px;
+      top:1px;
+      opacity: 0;
+      transition:all 1s;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="c">
+  <a href="http://tieba.baidu.com/">点我吧</a>
+  
+  <div class="phone"></div>
+    </div>
+  
+</body>
+</html>
